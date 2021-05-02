@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+    color: #000F08;
+    font-family: 'Open Sans', sans-serif;
+}
+/*NAV*/
+#nav{
+    width: 100%;
+    background-color: #000F08;
+    text-align: start;
+    position: fixed;
+}
+#nav:first-child{
+    padding-left: 3rem;
+}
+#nav ul li{
+    display: inline-block;
+    padding-left: 2rem; 
+    vertical-align: middle;  
+}
+.nav-bar{
+    padding: 1.5rem;
+}
+.object-nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.object-nav-icon{
+    width: 1.5rem;
+}
+.object-nav-icon svg{
+    fill: #FFFFFF;
+}
+/*HERO*/
+#hero-section{
+    text-align: right;
+    padding-top: 6rem;
+    background-image: url(../bg-hero.png);
+    background-size: cover;
+    height: 20rem;
+    color: #FFFFFF;
+    text-shadow: 0.25rem 0.125rem 0.25rem#707070;
+    margin-bottom: 6rem;
+}
+.title{
+    padding-top: 3.25rem;
+    padding-right: 12.3rem;
+    font-size: 2.5rem ;
+}
+.articles-in-page{
+    padding-right: 12.3rem;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+/*LOCATION*/
+#location{
+    margin-bottom: 5rem;
+}
+#location img{
+    margin-bottom: 3.5rem;
+    border-radius: 2%;
+}
+#location p{
+    line-height: 2;
+}
+/*SPEAKER*/
+#new-speaker{
+    background-color: #A4452C;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: #FFFFFF;
+}
+.chat-speaker{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: start;
+    width: 75%;
+}
+.speaker-img{
+    padding-left: 10rem;
+    width: 20%;
+    vertical-align: middle;
+    margin-right: 1.5rem;
+}
+.speaker-text{
+    display: inline-block;
+    height: 12.5rem;
+    width: 60%;
+    vertical-align: middle;
+    line-height: 1.3;
+}
+/*PREVIOUS EVENTS*/
+#previous-events{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.events{
+    display: inline-block;
+}
+.events a{
+    text-decoration: none;
+    color: inherit;
+}
+.events img{
+    max-width: 15rem;
+    padding: 3rem;
+    padding-bottom: 2rem;
+}
+/*FOOTER*/
+footer{
+    text-decoration: none;
+}
+#network{
+    background-color: #000F08;
+    color: #FFFFFF;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    line-height: 3;
+    text-decoration: none;
+}
+#network a{
+    padding: 0rem 0.5rem;
+    text-decoration: none;
+    color: inherit;
+}
+/* HASTA AQUI LOS ESTILOS DE INDEX.HTML Y HEREDADOS*/
+#main-content-sim{
+    display: inline-block;
+    padding-top: 9rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.main-content-sim-center{
+    text-align: justify;
+    width: 41rem;
+}
+.main-content-sim-center img{
+    width: 41rem;
+    margin-bottom: 4rem;
+    object-fit: scale-down;
+}
+
